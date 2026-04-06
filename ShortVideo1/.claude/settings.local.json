@@ -1,7 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Skill(short-video-director:short-fix-storyboard)"
+      "Skill(short-video-director:short-fix-storyboard)",
+      "Skill(storyboarder-asset-list)",
+      "Skill(creator-create-assets)",
+      "Skill(short-storyboard)",
+      "Bash(python3:*)",
+      "Bash(where python:*)",
+      "Bash(where python3:*)",
+      "Bash(py:*)",
+      "Bash(/c/Users/huangz/AppData/Local/Microsoft/WindowsApps/python:*)",
+      "Read(//c/Users/huangz/repos/ShortVideoDirector/**)",
+      "Bash(bash scripts/speech-rate.sh 4-9:normal:咪仔早啊！昨天那个bug修好了吗？ 4-9:fast:喵喵喵！ 4-9:normal:所以……到底修好没？ 5-10:normal:咪仔，你负责的接口，排期怎样？ 5-10:fast:喵！ 5-10:normal:好，就按你说的来。 7-14:normal:仔仔啊，工作别太累，早点睡。 7-14:normal:行了，早点睡吧，妈挂了啊。)",
+      "Bash(bash scripts/speech-rate.sh 0-5:normal:这个新功能模块，下周三前完成联调。 9-15:normal:行行行，大佬，不该质疑你。 10-15:normal:咪仔肯定自己也不知道答应了什么。)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)"
     ]
   }
 }
