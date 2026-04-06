@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(short-video-director:short-fix-storyboard)"
+    ]
+  }
+}
